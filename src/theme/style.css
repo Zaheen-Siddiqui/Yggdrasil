@@ -1,0 +1,57 @@
+* {
+    font-family: Sans;
+}
+
+window {
+    background: transparent;
+}
+
+.panel {
+    min-height: 34px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: rgba(18, 18, 24, 0.96);
+    color: #eeeeee;
+}
+
+.branding {
+    min-width: 110px;
+}
+
+.brand {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.workspaces {
+    margin-left: 10px;
+}
+
+.workspace {
+    min-width: 28px;
+    min-height: 26px;
+    padding: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: #b8b8c2;
+}
+
+.workspace:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.workspace.active {
+    background: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+}
+
+.clock {
+    min-width: 58px;
+    margin-right: 12px;
+    font-size: 13px;
+}
+
+.battery {
+    min-width: 55px;
+    font-size: 13px;
+}
