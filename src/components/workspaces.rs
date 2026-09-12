@@ -29,7 +29,7 @@ pub fn refresh_workspaces(state: &PanelState) {
      *
      * Yggdrasil | 1 2 3 | ...
      */
-    let mut ids = vec![1, 2, 3];
+    let mut ids = Vec::new();
 
     for workspace in workspaces {
         if workspace.id > 0 && !ids.contains(&workspace.id) {
